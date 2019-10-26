@@ -1,2 +1,2 @@
 # animating-resume
- 会动的简历
+## 会动的简历

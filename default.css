@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.token.selector {
+    color: black;
+}
+
+.token.property {
+    color: black;
+}
+
+.token.function {
+    color: black;
+}
+
+.code-wrapper {
+    position: fixed;
+    height: 100vh;
+    width: 50%;
+    left: 0;
+}
+
+#code {
+    font-size: 13px;
+    padding: 16px;
+    height: 100%;
+    overflow: hidden;
+}
+
+#paper {
+    display: none;
+    padding: 30px;
+    position: fixed;
+    right: 0;
+    width: 50%;
+    height: 100vh;
+}
+
+#md {
+    background: white;
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    overflow: auto;
+    animation: breath 0.8s infinite alternate-reverse;
+
+}
+
+.markdown {
+    background: white;
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    overflow: auto;
+    animation: breath 0.8s infinite alternate-reverse;
+
+}
+
+@keyframes breath {
+    0% {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 1)
+    }
+
+    100% {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2)
+    }
