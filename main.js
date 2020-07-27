@@ -1,5 +1,5 @@
 var content1 = `/* 
- * 面试官你好，我是XXX
+ * 面试官你好，我是张焱
  * 只用文字作做我介绍太单调了
  * 我就用代码来介绍吧
  * 首先准备一些样式 */
@@ -27,7 +27,7 @@ div.code-wrapper{
 #code{
   animation: breath 0.8s infinite alternate-reverse;
 }
-/* 不玩了，进入正题吧！ */
+/* 进入正题吧！ */
 /* 我需要一张白纸来写我的简历*/
 #paper {
   display: block;
@@ -41,29 +41,21 @@ var content2 = `
 `
 var md = `
 # 自我介绍
-我叫 XXX
-1990 年 1 月出生
-XXX 学校毕业
+我叫 张焱
+1996 年 2 月出生
+中国农业大学 毕业
 自学前端半年
 希望应聘前端开发岗位
 
 # 技能介绍
-熟悉 JavaScript CSS
-
-# 项目介绍
-- XXX 轮播
-- XXX 简历
-- XXX 画板
+react开发，熟练掌握react技术栈，react-router，redux，redux-saga，antd组件库等。
+vue开发，熟悉vue框架，使用vue-router进行路由配置和vuex进行状态管理。对vue3.0有一定了解。
+掌握原生js知识，es6规范，熟悉html5新特性，sass，以及使用ccs3实现动画效果。
 
 # 联系方式
-- QQ xxxxxxxx
-- Email xxxxxxxx
-- 手机 xxxxxxx
-
-# 联系方式
-- QQ xxxxxxxx
-- Email xxxxxxxx
-- 手机 xxxxxxx
+- QQ 188813950
+- Email 188813950@qq.com
+- 手机 13051386306
 
 `
 let content3 = `
@@ -85,7 +77,7 @@ function writedown(target, preText, preCss, text, callback) {
             window.clearInterval(id)
             callback.call()
         }
-    }, 70)
+    }, 40)
 }
 
 writedown('#code', '', '', content1, () => {
